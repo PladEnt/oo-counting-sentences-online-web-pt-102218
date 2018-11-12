@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  def sentence?(sintence)
+  def sentence?
     sintence.split
     if sintence[-1] == "."
       true
