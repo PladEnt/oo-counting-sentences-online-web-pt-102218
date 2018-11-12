@@ -3,8 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    sintence.split
-    if sintence[-1] == "."
+    String.split
+    if String[-1] == "."
       true
     elsif
       false
