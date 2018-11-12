@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if Stringtring[-1] == "."
+    if String[-1] == "."
       true
     elsif
       false
