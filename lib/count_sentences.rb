@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if String.last == "."
+    if String 
       true
     elsif
       false
